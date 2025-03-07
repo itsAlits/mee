@@ -42,10 +42,10 @@ export const Navbar = () => {
                 <Link href="/">Item 3</Link>
               </li>
             </ul>
-            <a className="btn btn-ghost text-xl hidden lg:block">alitWira</a>
+            <a className="text-xl hidden lg:flex">alitWira</a>
           </div>
         </div>
-        <a className="btn btn-ghost text-xl navbar-end lg:navbar-start lg:hidden">
+        <a className="btn btn-ghost text-xl navbar-end lg:hidden">
           alitWira
         </a>
         <div className="navbar-end hidden lg:flex">
