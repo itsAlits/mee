@@ -3,7 +3,7 @@ import React from "react";
 
 export const Navbar = () => {
   return (
-    <div className=" border border-base-300">
+    <div className=" border bg-white border-base-300 fixed z-50 w-full">
       <div className="navbar  container mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
@@ -36,19 +36,20 @@ export const Navbar = () => {
                 <Link href="/">Beranda</Link>
               </li>
               <li>
-                <Link href="/">Parent</Link>
+                <Link href="/">Project</Link>
               </li>
               <li>
-                <Link href="/">Item 3</Link>
+                <Link href="/">About Me</Link>
+              </li>
+              <li>
+                <Link href="/">Download CV</Link>
               </li>
             </ul>
             <a className="text-xl hidden lg:flex">alitWira</a>
           </div>
         </div>
-        <a className="btn btn-ghost text-xl navbar-end lg:hidden">
-          alitWira
-        </a>
-        <div className="navbar-end hidden lg:flex">
+        <a className="pe-4 text-xl navbar-end lg:hidden">alitWira</a>
+        <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 gap-2">
             <li>
               <Link href="/">Beranda</Link>
@@ -59,8 +60,15 @@ export const Navbar = () => {
             <li>
               <Link href="/">About Me</Link>
             </li>
+          </ul>
+        </div>
+        <div className="navbar-end hidden lg:flex">
+          <ul className="menu menu-horizontal px-1">
             <li>
-              <Link href="/" className="">
+              <Link
+                href="/"
+                className="bg-neutral rounded-full px-4 text-white hover:bg-neutral/90"
+              >
                 Download CV
               </Link>
             </li>

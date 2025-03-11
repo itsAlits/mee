@@ -1,20 +1,16 @@
-// Component Import
-import { Navbar } from "@/app/Components/Navbar";
-
 // Section
 import { Hero } from "@/app/Section/Beranda/Hero/Hero";
-
+import { Project } from "@/app/Section/Beranda/Project/Project";
 
 export default function Home() {
   return (
     <div>
-      {/* navbar Component */}
-      <Navbar />
 
       {/* Hero Section */}
       <Hero />
 
-
+    {/* Project Section */}
+      <Project />
     </div>
   );
 }

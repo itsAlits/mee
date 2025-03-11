@@ -3,4 +3,9 @@
 
 * {
   font-family: "Poppins", sans-serif;
+  /* border: 1px solid royalblue; */
+}
+
+body{
+  height: 200vh;
 }
